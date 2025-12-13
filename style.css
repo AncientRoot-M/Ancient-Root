@@ -2,7 +2,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #0d0d0d; /* Very dark background */
+    background-color: #0d0d0d; /* Gloss earth green  background */
     color: #fff; /* White text for contrast */
     font-family: 'Georgia', serif; /* Elegant, classic serif font */
 }
@@ -89,4 +89,23 @@ nav {
 }
 .cta-button:hover {
     background-color: #333; /* Subtle hover effect */
+}
+body {
+    /* Existing styles (dark background, font, etc.) */
+    /* Add this line: */
+    background-image: url('forest-bg.jpg'); 
+    background-size: cover; 
+    background-position: center;
+}
+body {
+    /* Existing styles... change the background-color */
+    background-color: #1a2a1c; /* Dark, deep forest green */
+    color: #fff;
+}
+.text-block h1 {
+    font-size: 4rem; 
+    color: #d8c293; /* Subtle gold/tan color for luxury */
+}
+.tagline {
+    color: #b0b0b0;
 }

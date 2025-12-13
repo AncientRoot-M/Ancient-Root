@@ -1,0 +1,92 @@
+/* 1. Global Setup (Colors, Fonts) */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d0d0d; /* Very dark background */
+    color: #fff; /* White text for contrast */
+    font-family: 'Georgia', serif; /* Elegant, classic serif font */
+}
+
+/* A basic grid container to center content */
+.container {
+    width: 90%;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+/* 2. Navigation Bar (Top of the page) */
+header {
+    padding: 20px 0;
+    border-bottom: 1px solid #333; /* Subtle separator line */
+}
+nav {
+    display: flex; /* Use Flexbox to align items */
+    justify-content: space-between; /* Space out the logo and links */
+    align-items: center;
+}
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.nav-links li {
+    margin-left: 25px;
+}
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* 3. Hero Section (Product Showcase) */
+.hero {
+    min-height: 80vh; /* Takes up most of the screen height */
+    display: flex;
+    align-items: center;
+    padding: 80px 0;
+}
+.hero-content {
+    display: flex; 
+    gap: 50px; /* Space between the image and text */
+    align-items: center;
+}
+.product-visual, .text-block {
+    flex: 1; /* Make both sides take up equal space */
+}
+.product-visual img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    opacity: 0.7; /* Make the placeholder subtle */
+}
+.text-block h1 {
+    font-size: 4rem; /* Large, luxurious heading */
+    margin-bottom: 0.5rem;
+    color: #ddd; /* Light gray for elegance */
+}
+.tagline {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #aaa;
+}
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid #fff; 
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: background-color 0.3s;
+}
+.cta-button:hover {
+    background-color: #333; /* Subtle hover effect */
+}

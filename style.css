@@ -68,7 +68,7 @@ nav {
 .text-block h1 {
     font-size: 4rem; /* Large, luxurious heading */
     margin-bottom: 0.5rem;
-    color: #ddd; /* Light gray for elegance */
+    color: #ddd; /* Gold for elegance */
 }
 .tagline {
     font-size: 1.2rem;
@@ -91,7 +91,7 @@ nav {
     background-color: #333; /* Subtle hover effect */
 }
 body {
-    /* Existing styles (dark background, font, etc.) */
+    /* Existing styles (Gold  background, font, etc.) */
     /* Add this line: */
     background-image: url('forest-bg.jpg'); 
     background-size: cover; 
